@@ -3,7 +3,7 @@
   font-size:20px;
 }
 .main_link {
-   color: red;
+   color: white;
    position: absolute;
    top: 5%;
    left: 20%;
@@ -27,7 +27,7 @@
     top: 10%;
     left: 30%;
 }
-#adigey{
+#adigey {
     position: absolute;
     top: 50%;
     left: 30%;
@@ -35,10 +35,10 @@
 .header{
  z-index: 1;
  background: linear-gradient(-45deg,red,orange);
- background-size: 100% 100%;
+ background-size: 400% 400%;
  width:100%;
  height:100vh;
- animation: animate 4s ease infinite;
+ animation: animate 8s ease infinite;
 }
 @keyframes animate{
    0%{

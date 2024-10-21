@@ -1,6 +1,11 @@
-#iaidza {
-  color: red;
-  font-size:20px;
+*{
+   margin:0;
+   padding:0;
+}
+
+
+body{
+   font-family: Arial;
 }
 .main_link {
    color: white;
@@ -39,6 +44,26 @@
  width:100%;
  height:100vh;
  animation: animate 8s ease infinite;
+}
+.header ul{
+    height:50px;
+    justify-content: center;
+    display: flex;
+}
+.header ul li{
+    display:inline-block;
+    padding: 40px 15px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.header ul li a:hover{
+       background: #2c2c2c;
+       color: #880808;
 }
 @keyframes animate{
    0%{
